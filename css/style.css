@@ -1,0 +1,1266 @@
+*{
+    padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+    box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+.clear{
+    clear: both;
+}
+
+header .container{
+    margin-top: 170px;
+}
+
+
+
+/* NAV */
+/* ====================================================================================================== */
+/* DESKTOP */
+
+
+.nav-header{
+    width: 100%;
+    background-color: #e46a06;
+    margin: 0 auto;
+    max-height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    float: left;
+    padding: 12px;
+    margin-left: 30px;
+}
+
+.mobile{
+    display: none;
+    background-image: url('../imagens/menu-icon.svg');
+    background-repeat: no-repeat;
+    width: 40px;
+	height: 40px;
+	margin-right: 25px;
+	background-size: 100% 100%;
+    float: right;
+    margin-top:15px;
+    cursor: pointer;
+}
+
+nav.mobile ul{
+    display: none;
+    background-color: #e46a06;
+    width: 100%;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    text-align: center;
+    z-index: 99;
+}
+
+nav.mobile li{
+	border-bottom: 3px solid #e46a06;
+	padding: 20px 0;
+}
+
+
+nav.mobile a{ 
+    color: white;
+
+}
+
+nav.desktop ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav.desktop li{
+    float: left;
+    font-size: 18px;
+    margin: 20px 20px;
+}
+
+nav li:first-child a{
+    border-bottom: 2px solid #8cffda;
+}
+
+nav.desktop a{
+    color: white;
+    font-weight: 00;
+}
+
+nav.desktop a:hover{
+    color: #8cffda;
+    text-decoration: none;
+}
+
+/* ===========================================================================================*/
+/* INITIAL */
+
+
+.header-texto p{
+    color: #e46a06;
+}
+
+.header-texto p:nth-of-type(1){
+    font-size: 50px;
+}
+
+.header-texto p:nth-of-type(2){
+    font-size: 30px;
+}
+
+#type::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0%, 100%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+}
+
+header .botao-contrate{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    font-weight: light;
+    background-color: #f16508;
+    color: white;
+    margin-top: 30px;
+}
+
+header .botao-contrate:hover{
+    background-color: #231B1B;
+}
+
+header .social-box{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 350px;
+
+}
+
+header .social-icon{
+    margin-right: 10px;
+}
+
+header .icon-wraper{
+    background-color: rgba(156, 154, 154, 0.3);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header .icon-wraper:hover{
+    position: relative;
+    top: -3px;
+}
+
+header .social-icon i{
+    font-size: 40px;
+    position: absolute;
+    left: 13px;
+}
+
+header .i-wraper{
+    position: relative;
+    top: -20px;
+}
+
+header i.fa-instagram{
+    color: #e46a06;
+}
+
+header i.fa-instagram:hover{
+    color: #231B1B;
+}
+
+header i.fa-envelope{
+    color: #e46a06;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+header i.fa-envelope:hover{
+    color: #231B1B;
+}
+
+header i.fa-whatsapp{
+    color: #e46a06;
+}
+
+header i.fa-whatsapp:hover{
+    color: #231B1B;
+}
+
+header i.fa-linkedin-in{
+    color: #e46a06;
+}
+
+header i.fa-linkedin-in:hover{
+    color: #231B1B;
+}
+
+header i.fa-github{
+    color: #e46a06;
+    font-size: 50px;
+    position: relative;
+    left: 6.5px;
+    top: 20px;
+}
+
+header i.fa-github:hover{
+    color: #231B1B;
+}
+
+/* IMG */
+.img-box{
+	position: relative;
+	top: -10px;
+	width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    background-color: #e46a06;
+    margin: 0 auto;
+}
+
+.img-me{
+	position: absolute;
+	left: 18px;
+	top: 18px;
+	width: 90%;
+	height: 90%;
+	border-radius: 100%;
+	background-image: url('../imagens/img-me-header.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #e46a06;
+}
+
+header .social-thing{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 45%;
+    top: 70%;
+    background-color: white;
+    font-size: 12px;
+    text-align: center;
+    display: none;
+}
+
+header .triangulo{
+    position: relative;
+    top: -60px;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid white;
+}
+
+/* ==============================================================================================
+============================================================================================= */
+section.sobre .libelula{
+    width: 80px;
+	height: 80px;
+	position: relative;
+	top: -40px;
+	margin: 0 auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 4;
+}
+
+section.sobre{
+    background-color: #e46a06;
+    margin-top: 100px;
+}
+
+section.sobre .titulo-sobre{
+    text-align: center;
+    color: #f8f8f8;
+    font-weight: bold;
+}
+
+.barra-titulo{
+    width: 100px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #231B1B;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50%;
+}
+
+section.sobre .img-sobre-wraper{
+    position: relative;
+    width: 60%;
+    height: 430px;
+    background-color: #ffffff;
+}
+
+section.sobre .img-sobre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+	height: 96%;
+    background-image: url('../imagens/img-me-header-3.jpeg');
+	background-size: 100% 100%;
+}
+
+
+section.sobre .texto-titulo{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+section.sobre .texto-texto{
+    color: white;
+    margin: 20px auto;
+}
+
+section.sobre .texto-info{
+    color: white;
+}
+
+section.sobre .botao-sobre{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    font-weight: light;
+    background-color: #eb6f0b;
+    color: white;
+    margin-top: 40px;
+}
+
+section.sobre .botao-sobre:hover{
+    background-color: #231B1B;
+}
+
+.blank{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+}
+
+/* ===================================================================================================
+================================================================================================= */
+/* HABILIDADES */
+section.habilidades  .libelula{
+    width: 80px;
+	height: 80px;
+	position: relative;
+	top: -40px;
+	margin: 0 auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 4;
+}
+
+section.habilidades {
+    background-color: #fdfbfa;
+}
+
+section.habilidades .titulo-habilidades{
+    text-align: center;
+    color: #e46a06;
+    /* color: #8cffda; */
+    font-weight: bold;
+}
+
+section.habilidades .barra-titulo{
+    width: 100px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #231B1B;
+    position: relative;
+    left: 54%;
+}
+
+section.habilidades h5{
+    /* color: #8cffda; */
+    font-weight: bold;
+    color: #231B1B;
+    margin-top: 30px;
+}
+
+
+
+section.habilidades .white-bar{
+    margin: 20px 0;
+    width: 300px;
+    height: 30px;
+    background-color: #eeedf3;
+    border-radius: 100px;
+}
+
+section.habilidades .pro-bar-csharp{
+    width: 300px;
+    background-color: #e46a06;
+    height: 30px;
+    border-radius: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+section.habilidades .pro-bar-netnetcore{
+    width: 300px;
+    background-color: #e46a06;
+    height: 30px;
+    border-radius: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+section.habilidades .pro-bar-rabbitmq{
+    width: 270px;
+    background-color: #e46a06;
+    height: 30px;
+    border-radius: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+section.habilidades .pro-bar-webapi{
+    width: 270px;
+    background-color: #e46a06;
+    height: 30px;
+    border-radius: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+.htmlcss{
+    margin-top: -30px;
+}
+
+.angular{
+    margin-top: -30px;
+}
+
+section.habilidades .pro-bar-entityframework{
+    width: 200px;
+    background-color: #e46a06;
+    height: 30px;
+    border-radius: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+section.habilidades .pro-bar-aspnetmvc{
+    width: 160px;
+    background-color: #e46a06;
+    height: 30px;
+    border-radius: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+section.habilidades .pro-bar-angular{
+    width: 80px;
+    background-color: #e46a06;
+    height: 30px;
+    border-radius: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+section.habilidades .pro-bar-htmlcss{
+    width: 250px;
+    background-color: #e46a06;
+    height: 30px;
+    border-radius: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+/* PORTFÓLIO */
+/* ==================================================================================================
+===================================================================================================== */
+
+section.portfolio .libelula{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -40px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+    
+section.portfolio{
+    background-color: #e46a06;
+    margin-top: 100px;
+}
+    
+section.portfolio .titulo-habilidades{
+    text-align: center;
+    color: #fbfdfc;
+    font-weight: bold;
+}
+    
+section.portfolio .barra-titulo{
+    width: 80px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #231B1B;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50%;
+}
+    
+section.portfolio .port-box{
+    margin: 20px auto;
+    width: 60%;
+    height: 200px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+section.portfolio .port-box h5{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-weight: bold;
+    color: #231B1B;
+}
+
+section.portfolio .port-box:hover{
+    background-color: #8cffda;
+    background-image: url('../imagens/search-plus-solid.svg');
+    background-repeat: no-repeat;
+    background-size: 20% 20%;
+    background-position: center;
+}
+    
+
+/* CONTATO */
+/* ==================================================================================================
+===================================================================================================== */
+
+section.contato .libelula{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -40px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+    
+/* section.contato {
+    margin-top: 100px;
+} */
+    
+section.contato  .titulo-contato {
+    text-align: center;
+    color:  #e46a06;
+    font-weight: bold;
+}
+    
+section.contato  .barra-titulo{
+    width: 80px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #231B1B;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50%;
+}
+    
+section.contato .mensagem {
+    color: #e46a06;
+    text-align: center;
+    width: 60%;
+}
+
+
+.icone{
+    background-color: rgba(35, 27, 27, 0.3);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 100%;
+}
+
+.icone > i{
+    font-size: 35px;
+    position: relative;
+    left: 12px;
+    color: #f34c0a;
+}
+
+section.contato .icone-msn{
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+section.contato .box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* =================================================================================================
+====================================================================================================*/
+/* FOOTER */
+
+footer{
+    background-color: #e46a06;
+}
+
+footer  .social-box{
+    display: flex;
+    align-items: center;
+    width: 295px;
+    margin: 20px auto;
+}
+
+footer  .social-icon{
+    margin-right: 10px;
+}
+
+footer  .icon-wraper{
+    background-color: rgba(250,250,250, 0.3);
+    width: 50px;
+    height: 50px;
+
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+footer  .icon-wraper:hover{
+    position: relative;
+    top: -3px;
+}
+
+footer .social-icon i{
+    font-size: 35px;
+    position: absolute;
+    left: 9.5px;
+}
+
+footer  .i-wraper{
+    position: relative;
+    top: -20px;
+}
+
+footer  i.fa-instagram{
+    color: #fff;
+    top: 2px;
+}
+
+
+footer  i.fa-envelope{
+    color: #fff;
+    position: relative;
+    left: 8px;
+    top: 22px;
+}
+
+footer  i.fa-whatsapp{
+    color: #fff;
+    top: 2px;
+}
+
+footer i.fa-linkedin-in{
+    color: #fff;
+    top: 3px;
+    left: 10px;
+}
+
+
+footer  i.fa-github{
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    left: 6px;
+    top: 21px;
+}
+
+footer i.fa-github:hover{
+    color: #231B1B;
+}
+
+
+
+
+
+
+
+
+
+
+/* =================================================================================================
+====================================================================================================
+==================================================================================================== */
+
+@media only screen and (max-width: 991px) {
+    .header-texto p{
+        text-align: center;
+    }
+
+    header .botao-contrate{
+        margin: 0 auto;
+    }
+    
+    header .social-box{
+        margin: 20px auto;
+    }
+
+    .img-box{
+        position: relative;
+        top: 20px;
+    }
+    
+    header .container{
+        margin-top: 100px;
+    }
+
+    /* img-sobre */
+
+    section.sobre .img-sobre-wraper{
+        width: 80%;
+        height: 430px;
+    }
+    
+    /* portfolio */
+
+    section.portfolio .port-box{
+        margin: 20px auto;
+        width: 80%;
+        height: 200px;
+    }
+
+    /* contato */
+    section.contato .mensagem {
+        width: 80%;
+    }
+    
+    section.contato .form-wraper input[type=text]{
+        width: 80%;
+        height: 50px;
+        margin: 10px 0;
+    }
+    
+    textarea{
+        width: 80%;
+        
+    }
+}
+
+
+@media only screen and (max-width: 840px) {
+    nav.desktop li{
+        font-size: 15px;
+        margin: 25px 15px;
+    }
+    
+    nav.desktop a{
+        color: white;
+        font-weight: 00;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    
+    section.sobre .img-sobre-wraper{
+        width: 100%;
+        height: 430px;
+        margin-top: 20px;
+    }
+
+    section.habilidades .titulo-hab{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    section.habilidades .white-bar{
+        width: 400px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    
+    section.habilidades .pro-bar-csharp{
+        width: 320px;
+    }
+
+    section.habilidades .pro-bar-css{
+        width: 300px;
+    }
+
+    section.habilidades .pro-bar-jquery{
+        width: 240px;
+    }
+
+    .jquery{
+        margin-top: 0;
+    }
+
+    section.habilidades .pro-bar-js{
+        width: 200px;
+    }
+
+    /* portfolio */
+
+    section.portfolio .port-box{
+        margin: 20px auto;
+        width: 90%;
+        height: 200px;
+    }
+
+    /* contato */
+    section.contato .mensagem {
+        width: 90%;
+    }
+    
+    section.contato .form-wraper input[type=text]{
+        width: 90%;
+        height: 50px;
+        margin: 10px 0;
+    }
+    
+    textarea{
+        width: 90%;
+        height: 120px;
+        margin: 0 auto !important;
+    }
+
+    section.contato .mensagem-info h2, section.contato .mensagem-info h5{
+        text-align: center;
+
+    }
+
+    section.contato .mensagem-info h5{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    section.contato .info-box{
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 40px;
+
+    }
+
+    section.contato .box{
+        display: block;
+        margin: -25px;
+    }
+
+    section.contato .icone{
+        margin: 10px auto;
+    }
+
+    section.contato .icone-msn h6{
+        font-size: 15px;
+    }
+
+    section.contato .icone-msn #h6{
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    .mobile{
+        display: block;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    nav.mobile ul{
+		display: none;
+		left: 0;
+		top: 70px;
+		position: absolute;
+    }
+
+
+}
+
+@media only screen and (max-width: 575px){
+    section.sobre .img-sobre-wraper{
+        width: 60%;
+        height: 430px;
+        margin-top: 20px;
+        margin: 5px auto;
+    }
+
+    section.portfolio .port-box{
+        margin: 20px auto;
+        width: 60%;
+        height: 200px;
+    }
+
+    /* contato */
+    section.contato span{
+        text-align: center;
+    }
+
+    section.contato .mensagem {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    section.contato .form-wraper input[type=text]{
+        width: 90%;
+        height: 50px;
+        margin: 10px auto;
+    }
+    
+    /* .form-wraper{
+        background-color: red;
+    } */
+
+    textarea{
+        width: 90%;
+        height: 120px;
+        margin-top: 0;
+        margin: 0 auto;
+    }
+
+    section.contato .botao-contrate{
+        margin: 30px auto;
+    }
+
+    section.contato .mensagem-info h2, section.contato .mensagem-info h5{
+        text-align: center;
+    }
+
+    section.contato .info-box{
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    section.contato .box{
+        display: block;
+        margin: 0px;
+    }
+
+    section.contato .icone{
+        margin: 10px auto;
+    }
+
+    section.contato .icone-msn h6{
+        font-size: 15px;
+    }
+
+    section.contato .icone-msn #h6{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    section.habilidades .titulo-hab{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    section.habilidades .white-bar{
+        width: 250px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    
+    section.habilidades .pro-bar-html{
+        width: 200px;
+    }
+
+    section.habilidades .pro-bar-css{
+        width: 300px;
+    }
+
+    section.habilidades .pro-bar-jquery{
+        width: 150px;
+    }
+
+    section.habilidades .pro-bar-js{
+        width: 130px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 400px) {
+    
+    .header-texto p:nth-of-type(1){
+        font-size: 40px;
+    }
+    
+    .header-texto p:nth-of-type(2){
+        font-size: 20px;
+    }
+
+    
+    /* social-bpx */
+    header .social-box{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 300px;
+        position: relative;
+        
+    }
+
+    /* header .social-icon{
+        margin-right: 10px;
+    }
+     */
+    header .icon-wraper{
+        width: 45px;
+        height: 45px;
+        position: relative;
+        left: 20px;
+    }
+    
+    header .social-icon i{
+        font-size: 30px;
+        position: absolute;
+        left: 13px;
+    }
+    
+    header .i-wraper{
+        position: relative;
+        top: -20px;
+    }
+    
+    header i.fa-instagram{
+        color: #e46a06;
+        position: relative;
+        left: 9.5px;
+        top: 21px;
+    }
+    
+    header i.fa-envelope{
+        color:#e46a06;
+        position: relative;
+        left: 8px;
+        top: 22px;
+    }
+    
+    header i.fa-whatsapp{
+        color: #e46a06;
+        position: relative;
+        left: 10px;
+        top: 20px;
+    }
+    
+    header i.fa-linkedin-in{
+        color: #e46a06;
+        position: relative;
+        left: 10px;
+        top: 22px;
+    }
+    
+    header i.fa-github{
+        color: #e46a06;
+        font-size: 35px;
+        position: relative;
+        left: 6px;
+        top: 21px;
+    }
+
+    /* img */
+
+    .img-box{
+        top: -5px;
+        width: 280px;
+        height: 280px;
+        margin: 10px auto;
+    }
+    
+    .img-me{
+        left: 15px;
+        top: 15px;
+        width: 90%;
+        height: 90%;
+    }
+
+    header .botao-contrate{
+        margin-bottom: 20px;
+    }    
+
+    section.sobre .img-sobre-wraper{
+        width: 70%;
+    }
+
+    /* portfolio */
+
+    section.portfolio .port-box{
+        margin: 20px auto;
+        width: 80%;
+        height: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+    section.habilidades .titulo-habilidades{
+        font-size: 25px;
+    }
+
+    section.portfolio .port-box{
+        margin: 20px auto;
+        width: 80%;
+        height: 150px;
+    }
+
+    /* footer */
+
+    footer  .social-box{
+        display: flex;
+        align-items: center;
+        width: 250px;
+        margin: 20px auto;
+    }
+    
+    footer  .social-icon{
+        margin-right: 8px;
+    }
+    
+    footer  .icon-wraper{
+        background-color: rgba(250,250,250, 0.3);
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    footer .social-icon i{
+        font-size: 30px;
+        position: absolute;
+        left: 9.5px;
+    }
+    
+    footer  .i-wraper{
+        position: relative;
+        top: -20px;
+    }
+    
+    footer  i.fa-instagram{
+        color: #fff;
+        top: 5px;
+    }
+    
+    
+    footer  i.fa-envelope{
+        color: #fff;
+        position: relative;
+        left: 8px;
+        top: 22px;
+    }
+    
+    footer  i.fa-whatsapp{
+        color: #fff;
+        top: 4px;
+    }
+    
+    footer i.fa-linkedin-in{
+        color: #fff;
+        top: 5px;
+        left: 10px;
+    }
+    
+    
+    footer  i.fa-github{
+        color: rgb(250, 52, 2);
+        font-size: 35px;
+        position: relative;
+        left: 6px;
+        top: 21px;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 350px) {
+    header .social-box{
+        left: -5px;
+    }
+
+    section.sobre .img-sobre-wraper{
+        width: 90%;
+    }
+
+}
+
+
+@media only screen and (max-width: 330px) {
+    header .social-box{
+        left: -10px;
+    }
+}
