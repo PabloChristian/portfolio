@@ -17,11 +17,11 @@ $(function(){
     
     //hover social-box    
     $('.icon-wraper').hover(function(){
-        $(this).find('i').css("color", "#231B1B");
+        $(this).find('i').css("color", "#e46a06");
     })
 
     $('.icon-wraper').mouseleave(function(){
-        $(this).find('i').css("color", "#7161EF");
+        $(this).find('i').css("color", " #e46a06");
     })
 
     $('footer .icon-wraper').hover(function(){

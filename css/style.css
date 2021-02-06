@@ -20,8 +20,6 @@ header .container{
     margin-top: 170px;
 }
 
-
-
 /* NAV */
 /* ====================================================================================================== */
 /* DESKTOP */
@@ -93,7 +91,7 @@ nav.desktop li{
 }
 
 nav li:first-child a{
-    border-bottom: 2px solid #8cffda;
+    border-bottom: 2px solid #030303;
 }
 
 nav.desktop a{
@@ -102,7 +100,7 @@ nav.desktop a{
 }
 
 nav.desktop a:hover{
-    color: #8cffda;
+    color: #0b0c0c;
     text-decoration: none;
 }
 
@@ -382,6 +380,81 @@ section.sobre .botao-sobre:hover{
 
 /* ===================================================================================================
 ================================================================================================= */
+/* FORMAÇÃO */
+section.formacao .libelula{
+    width: 80px;
+	height: 80px;
+	position: relative;
+	top: -40px;
+	margin: 0 auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 4;
+}
+
+section.formacao{
+    background-color: #e46a06;
+    margin-top: 100px;
+}
+
+section.formacao .titulo-formacao{
+    text-align: center;
+    color: #f8f8f8;
+    font-weight: bold;
+}
+
+.barra-titulo{
+    width: 100px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #231B1B;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50%;
+}
+
+section.formacao .texto-titulo{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+section.formacao .texto-texto{
+    color: white;
+    margin: 20px auto;
+}
+
+section.formacao .texto-info{
+    color: white;
+}
+
+section.formacao .botao-formacao{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    font-weight: light;
+    background-color: #eb6f0b;
+    color: white;
+    margin-top: 40px;
+}
+
+section.formacao .botao-formacao:hover{
+    background-color: #231B1B;
+}
+
+.blank{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+}
+
+
+
+/* ===================================================================================================
+================================================================================================= */
 /* HABILIDADES */
 section.habilidades  .libelula{
     width: 80px;
@@ -479,13 +552,31 @@ section.habilidades .pro-bar-webapi{
     padding-top: 3px;
 }
 
+section.habilidades .pro-bar-javascript{
+    width: 170px;
+    background-color: #e46a06;
+    height: 30px;
+    border-radius: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
 .htmlcss{
-    margin-top: -30px;
+    margin-top: -22px;
 }
 
 .angular{
-    margin-top: -30px;
+    margin-top: 30px;
 }
+
+.javascript{
+    margin-top: 30px;
+}
+
+
 
 section.habilidades .pro-bar-entityframework{
     width: 200px;
@@ -589,7 +680,7 @@ section.portfolio .port-box h5{
 }
 
 section.portfolio .port-box:hover{
-    background-color: #8cffda;
+    background-color: #c6c7c7;
     background-image: url('../imagens/search-plus-solid.svg');
     background-repeat: no-repeat;
     background-size: 20% 20%;
