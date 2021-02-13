@@ -1,3 +1,17 @@
+
+/*variáveis*/
+
+/* Palheta de Cores: 
+Avanade: #e46a06
+*/
+
+:root{
+  --cor_principal: white;
+  --cor_secundaria: #e46a06;
+}
+
+/*elementos base*/
+
 *{
     padding: 0;
 	margin: 0;
@@ -27,7 +41,7 @@ header .container{
 
 .nav-header{
     width: 100%;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     margin: 0 auto;
     max-height: 70px;
     position: fixed;
@@ -37,7 +51,7 @@ header .container{
 }
 
 .logo{
-    color: white;
+    color: var(--cor_principal);
     font-size: 30px;
     float: left;
     padding: 12px;
@@ -59,7 +73,7 @@ header .container{
 
 nav.mobile ul{
     display: none;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     width: 100%;
     position: absolute;
     top: -80px;
@@ -69,13 +83,13 @@ nav.mobile ul{
 }
 
 nav.mobile li{
-	border-bottom: 3px solid #e46a06;
+	border-bottom: 3px solid var(--cor_secundaria);
 	padding: 20px 0;
 }
 
 
 nav.mobile a{ 
-    color: white;
+    color: var(--cor_principal);
 
 }
 
@@ -95,7 +109,7 @@ nav li:first-child a{
 }
 
 nav.desktop a{
-    color: white;
+    color: var(--cor_principal);
     font-weight: 00;
 }
 
@@ -109,7 +123,7 @@ nav.desktop a:hover{
 
 
 .header-texto p{
-    color: #e46a06;
+    color: var(--cor_secundaria);
 }
 
 .header-texto p:nth-of-type(1){
@@ -120,6 +134,9 @@ nav.desktop a:hover{
     font-size: 30px;
 }
 
+#type{
+    color: var(--cor_secundaria);
+}
 #type::after{
     content: '|';
     margin-left: 5px;
@@ -146,7 +163,7 @@ header .botao-contrate{
     line-height: 40px;
     font-weight: light;
     background-color: #f16508;
-    color: white;
+    color: var(--cor_principal);
     margin-top: 30px;
 }
 
@@ -193,7 +210,7 @@ header .i-wraper{
 }
 
 header i.fa-instagram{
-    color: #e46a06;
+    color: var(--cor_secundaria);
 }
 
 header i.fa-instagram:hover{
@@ -201,7 +218,7 @@ header i.fa-instagram:hover{
 }
 
 header i.fa-envelope{
-    color: #e46a06;
+    color: var(--cor_secundaria);
     position: relative;
     left: 10px;
     top: 20px;
@@ -212,7 +229,7 @@ header i.fa-envelope:hover{
 }
 
 header i.fa-whatsapp{
-    color: #e46a06;
+    color: var(--cor_secundaria);
 }
 
 header i.fa-whatsapp:hover{
@@ -220,7 +237,7 @@ header i.fa-whatsapp:hover{
 }
 
 header i.fa-linkedin-in{
-    color: #e46a06;
+    color: var(--cor_secundaria);
 }
 
 header i.fa-linkedin-in:hover{
@@ -228,7 +245,7 @@ header i.fa-linkedin-in:hover{
 }
 
 header i.fa-github{
-    color: #e46a06;
+    color: var(--cor_secundaria);
     font-size: 50px;
     position: relative;
     left: 6.5px;
@@ -247,7 +264,7 @@ header i.fa-github:hover{
     height: 350px;
     border-radius: 50%;
     /* background-color: rgba(255, 255, 255, 0.6); */
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     margin: 0 auto;
 }
 
@@ -262,7 +279,7 @@ header i.fa-github:hover{
 	background-size: cover;
 	background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
 }
 
 header .social-thing{
@@ -271,7 +288,7 @@ header .social-thing{
     position: relative;
     left: 45%;
     top: 70%;
-    background-color: white;
+    background-color: var(--cor_principal);
     font-size: 12px;
     text-align: center;
     display: none;
@@ -284,12 +301,12 @@ header .triangulo{
     height: 0; 
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 25px solid white;
+    border-bottom: 25px solid var(--cor_principal);
 }
 
 /* ==============================================================================================
 ============================================================================================= */
-section.sobre .libelula{
+section.sobre .icone-divisoria{
     width: 80px;
 	height: 80px;
 	position: relative;
@@ -301,7 +318,7 @@ section.sobre .libelula{
 }
 
 section.sobre{
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     margin-top: 100px;
 }
 
@@ -324,7 +341,7 @@ section.sobre .titulo-sobre{
 section.sobre .img-sobre-wraper{
     position: relative;
     width: 60%;
-    height: 430px;
+    height: 350px;
     background-color: #ffffff;
 }
 
@@ -333,26 +350,26 @@ section.sobre .img-sobre{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 96%;
-	height: 96%;
+    width: 95%;
+	  height: 95%;
     background-image: url('../imagens/img-me-header-3.jpeg');
-	background-size: 100% 100%;
+	  background-size: 100% 100%;
 }
 
 
 section.sobre .texto-titulo{
     margin-top: 20px;
-    color: white;
+    color: var(--cor_principal);
     margin-bottom: 10px;
 }
 
 section.sobre .texto-texto{
-    color: white;
+    color: var(--cor_principal);
     margin: 20px auto;
 }
 
 section.sobre .texto-info{
-    color: white;
+    color: var(--cor_principal);
 }
 
 section.sobre .botao-sobre{
@@ -364,7 +381,7 @@ section.sobre .botao-sobre{
     line-height: 40px;
     font-weight: light;
     background-color: #eb6f0b;
-    color: white;
+    color: var(--cor_principal);
     margin-top: 40px;
 }
 
@@ -381,7 +398,7 @@ section.sobre .botao-sobre:hover{
 /* ===================================================================================================
 ================================================================================================= */
 /* FORMAÇÃO */
-section.formacao .libelula{
+section.formacao .divisoria{
     width: 80px;
 	height: 80px;
 	position: relative;
@@ -393,7 +410,7 @@ section.formacao .libelula{
 }
 
 section.formacao{
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     margin-top: 100px;
 }
 
@@ -415,17 +432,17 @@ section.formacao .titulo-formacao{
 
 section.formacao .texto-titulo{
     margin-top: 20px;
-    color: white;
+    color: var(--cor_principal);
     margin-bottom: 10px;
 }
 
 section.formacao .texto-texto{
-    color: white;
+    color: var(--cor_principal);
     margin: 20px auto;
 }
 
 section.formacao .texto-info{
-    color: white;
+    color: var(--cor_principal);
 }
 
 section.formacao .botao-formacao{
@@ -437,7 +454,7 @@ section.formacao .botao-formacao{
     line-height: 40px;
     font-weight: light;
     background-color: #eb6f0b;
-    color: white;
+    color: var(--cor_principal);
     margin-top: 40px;
 }
 
@@ -456,7 +473,7 @@ section.formacao .botao-formacao:hover{
 /* ===================================================================================================
 ================================================================================================= */
 /* HABILIDADES */
-section.habilidades  .libelula{
+section.habilidades  .divisoria{
     width: 80px;
 	height: 80px;
 	position: relative;
@@ -473,7 +490,7 @@ section.habilidades {
 
 section.habilidades .titulo-habilidades{
     text-align: center;
-    color: #e46a06;
+    color: var(--cor_secundaria);
     /* color: #8cffda; */
     font-weight: bold;
 }
@@ -496,7 +513,7 @@ section.habilidades h5{
 
 
 
-section.habilidades .white-bar{
+section.habilidades .var(--cor_principal)-bar{
     margin: 20px 0;
     width: 300px;
     height: 30px;
@@ -506,60 +523,60 @@ section.habilidades .white-bar{
 
 section.habilidades .pro-bar-csharp{
     width: 300px;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
     text-align: right;
     font-weight: bold;
-    color: white;
+    color: var(--cor_principal);
     padding-right: 10px;
     padding-top: 3px;
 }
 
 section.habilidades .pro-bar-netnetcore{
     width: 300px;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
     text-align: right;
     font-weight: bold;
-    color: white;
+    color: var(--cor_principal);
     padding-right: 10px;
     padding-top: 3px;
 }
 
 section.habilidades .pro-bar-rabbitmq{
     width: 270px;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
     text-align: right;
     font-weight: bold;
-    color: white;
+    color: var(--cor_principal);
     padding-right: 10px;
     padding-top: 3px;
 }
 
 section.habilidades .pro-bar-webapi{
     width: 270px;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
     text-align: right;
     font-weight: bold;
-    color: white;
+    color: var(--cor_principal);
     padding-right: 10px;
     padding-top: 3px;
 }
 
 section.habilidades .pro-bar-javascript{
     width: 170px;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
     text-align: right;
     font-weight: bold;
-    color: white;
+    color: var(--cor_principal);
     padding-right: 10px;
     padding-top: 3px;
 }
@@ -580,48 +597,48 @@ section.habilidades .pro-bar-javascript{
 
 section.habilidades .pro-bar-entityframework{
     width: 200px;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
     text-align: right;
     font-weight: bold;
-    color: white;
+    color: var(--cor_principal);
     padding-right: 10px;
     padding-top: 3px;
 }
 
 section.habilidades .pro-bar-aspnetmvc{
     width: 160px;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
     text-align: right;
     font-weight: bold;
-    color: white;
+    color: var(--cor_principal);
     padding-right: 10px;
     padding-top: 3px;
 }
 
 section.habilidades .pro-bar-angular{
     width: 80px;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
     text-align: right;
     font-weight: bold;
-    color: white;
+    color: var(--cor_principal);
     padding-right: 10px;
     padding-top: 3px;
 }
 
 section.habilidades .pro-bar-htmlcss{
     width: 250px;
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
     text-align: right;
     font-weight: bold;
-    color: white;
+    color: var(--cor_principal);
     padding-right: 10px;
     padding-top: 3px;
 }
@@ -630,7 +647,7 @@ section.habilidades .pro-bar-htmlcss{
 /* ==================================================================================================
 ===================================================================================================== */
 
-section.portfolio .libelula{
+section.portfolio .divisoria{
     width: 80px;
     height: 80px;
     position: relative;
@@ -642,7 +659,7 @@ section.portfolio .libelula{
 }
     
 section.portfolio{
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
     margin-top: 100px;
 }
     
@@ -692,7 +709,7 @@ section.portfolio .port-box:hover{
 /* ==================================================================================================
 ===================================================================================================== */
 
-section.contato .libelula{
+section.contato .divisoria{
     width: 80px;
     height: 80px;
     position: relative;
@@ -709,7 +726,7 @@ section.contato .libelula{
     
 section.contato  .titulo-contato {
     text-align: center;
-    color:  #e46a06;
+    color:  var(--cor_secundaria);
     font-weight: bold;
 }
     
@@ -724,7 +741,7 @@ section.contato  .barra-titulo{
 }
     
 section.contato .mensagem {
-    color: #e46a06;
+    color: var(--cor_secundaria);
     text-align: center;
     width: 60%;
 }
@@ -763,7 +780,7 @@ section.contato .box{
 /* FOOTER */
 
 footer{
-    background-color: #e46a06;
+    background-color: var(--cor_secundaria);
 }
 
 footer  .social-box{
@@ -916,7 +933,7 @@ footer i.fa-github:hover{
     }
     
     nav.desktop a{
-        color: white;
+        color: var(--cor_principal);
         font-weight: 00;
     }
 }
@@ -934,7 +951,7 @@ footer i.fa-github:hover{
         margin: 0 auto;
     }
 
-    section.habilidades .white-bar{
+    section.habilidades .var(--cor_principal)-bar{
         width: 400px;
         height: 30px;
         margin: 0 auto;
@@ -1119,7 +1136,7 @@ footer i.fa-github:hover{
         margin: 0 auto;
     }
 
-    section.habilidades .white-bar{
+    section.habilidades .var(--cor_principal)-bar{
         width: 250px;
         height: 30px;
         margin: 0 auto;
@@ -1187,35 +1204,35 @@ footer i.fa-github:hover{
     }
     
     header i.fa-instagram{
-        color: #e46a06;
+        color: var(--cor_secundaria);
         position: relative;
         left: 9.5px;
         top: 21px;
     }
     
     header i.fa-envelope{
-        color:#e46a06;
+        color:var(--cor_secundaria);
         position: relative;
         left: 8px;
         top: 22px;
     }
     
     header i.fa-whatsapp{
-        color: #e46a06;
+        color: var(--cor_secundaria);
         position: relative;
         left: 10px;
         top: 20px;
     }
     
     header i.fa-linkedin-in{
-        color: #e46a06;
+        color: var(--cor_secundaria);
         position: relative;
         left: 10px;
         top: 22px;
     }
     
     header i.fa-github{
-        color: #e46a06;
+        color: var(--cor_secundaria);
         font-size: 35px;
         position: relative;
         left: 6px;
