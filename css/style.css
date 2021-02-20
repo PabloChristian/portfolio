@@ -534,7 +534,7 @@ section.habilidades .pro-bar-csharp{
 }
 
 section.habilidades .pro-bar-netnetcore{
-    width: 300px;
+    width: 280px;
     background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
@@ -570,7 +570,7 @@ section.habilidades .pro-bar-webapi{
 }
 
 section.habilidades .pro-bar-javascript{
-    width: 170px;
+    width: 190px;
     background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
@@ -620,7 +620,7 @@ section.habilidades .pro-bar-aspnetmvc{
 }
 
 section.habilidades .pro-bar-angular{
-    width: 80px;
+    width: 170px;
     background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
@@ -632,7 +632,7 @@ section.habilidades .pro-bar-angular{
 }
 
 section.habilidades .pro-bar-htmlcss{
-    width: 250px;
+    width: 280px;
     background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
@@ -719,10 +719,6 @@ section.contato .divisoria{
     background-repeat: no-repeat;
     z-index: 4;
 }
-    
-/* section.contato {
-    margin-top: 100px;
-} */
     
 section.contato  .titulo-contato {
     text-align: center;
