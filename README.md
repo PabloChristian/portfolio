@@ -5,6 +5,12 @@ Portfolio para apresentação de currículo, contendo habilidades e experiência
 Acesse o link abaixo:
 https://pablochristian.github.io/Portfolio/
 
+## Tecnologias
+HTML
+CSS
+Bootstrap
+Flexbox
+
 ## Imagens
 
 - Tela Principal (Home)
@@ -24,9 +30,3 @@ https://pablochristian.github.io/Portfolio/
 
 - Contato
 <img src="docs/prints/print6.png">
-
-## Tecnologias
-HTML
-CSS
-Bootstrap
-Flexbox
