@@ -2647,7 +2647,8 @@ readers do not read off random characters that represent icons */
   content: "\f3c6"; }
 
 .fa-medium:before {
-  content: "\f23a"; }
+  content: "\f3c7"; 
+  color: rgb(253, 116, 24);}
 
 .fa-medium-m:before {
   content: "\f3c7"; }

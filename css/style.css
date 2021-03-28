@@ -63,9 +63,9 @@ header .container{
     background-image: url('../imagens/menu-icon.svg');
     background-repeat: no-repeat;
     width: 40px;
-	height: 40px;
-	margin-right: 25px;
-	background-size: 100% 100%;
+	  height: 40px;
+	  margin-right: 25px;
+	  background-size: 100% 100%;
     float: right;
     margin-top:15px;
     cursor: pointer;
@@ -570,7 +570,7 @@ section.habilidades .pro-bar-webapi{
 }
 
 section.habilidades .pro-bar-javascript{
-    width: 190px;
+    width: 170px;
     background-color: var(--cor_secundaria);
     height: 30px;
     border-radius: 100px;
@@ -579,6 +579,18 @@ section.habilidades .pro-bar-javascript{
     color: var(--cor_principal);
     padding-right: 10px;
     padding-top: 3px;
+}
+
+section.habilidades .pro-bar-nodejs{
+  width: 130px;
+  background-color: var(--cor_secundaria);
+  height: 30px;
+  border-radius: 100px;
+  text-align: right;
+  font-weight: bold;
+  color: var(--cor_principal);
+  padding-right: 10px;
+  padding-top: 3px;
 }
 
 .htmlcss{
@@ -703,7 +715,136 @@ section.portfolio .port-box:hover{
     background-size: 20% 20%;
     background-position: center;
 }
-    
+
+/* VOLUNTARIADO */
+/* ==================================================================================================
+===================================================================================================== */
+
+section.voluntariado .divisoria{
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: -40px;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 4;
+}
+  
+section.voluntariado  .titulo-voluntariado {
+  text-align: center;
+  color:  var(--cor_secundaria);
+  font-weight: bold;
+}
+  
+section.voluntariado  .barra-titulo{
+  width: 80px;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #231B1B;
+  margin-bottom: 30px;
+  position: relative;
+  left: 50%;
+}
+  
+section.voluntariado .mensagem {
+  color: var(--cor_secundaria);
+  text-align: center;
+  width: 60%;
+}
+
+
+.icone{
+  background-color: rgba(35, 27, 27, 0.3);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 100%;
+}
+
+.icone > i{
+  font-size: 35px;
+  position: relative;
+  left: 12px;
+  color: #f34c0a;
+}
+
+section.voluntariado .icone-msn{
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+section.voluntariado .box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* PREMIACOES */
+/* ==================================================================================================
+===================================================================================================== */
+
+section.premiacoes .divisoria{
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: -40px;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 4;
+}
+  
+section.premiacoes  .titulo-premiacoes {
+  text-align: center;
+  color:  var(--cor_secundaria);
+  font-weight: bold;
+}
+  
+section.premiacoes  .barra-titulo{
+  width: 80px;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #231B1B;
+  margin-bottom: 30px;
+  position: relative;
+  left: 50%;
+}
+  
+section.voluntariado .mensagem {
+  color: var(--cor_secundaria);
+  text-align: center;
+  width: 60%;
+}
+
+
+.icone{
+  background-color: rgba(35, 27, 27, 0.3);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 100%;
+}
+
+.icone > i{
+  font-size: 35px;
+  position: relative;
+  left: 12px;
+  color: #f34c0a;
+}
+
+section.premiacoes .icone-msn{
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+section.premiacoes .box{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* CONTATO */
 /* ==================================================================================================

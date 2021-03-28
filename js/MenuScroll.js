@@ -8,7 +8,7 @@ $(function(){
             if(elOffY+200 < (windowOffY + windowHeight) && elOffY+200+$(this).height() > windowOffY){
                 $('a').css('border-bottom','0');
                 var target = $(this).attr('target');
-                $('.nav-'+target).css('border-bottom', '2px solid #8cffda');
+                $('.nav-'+target).css('border-bottom', '2px solid black');
                 return;
             }
         });
