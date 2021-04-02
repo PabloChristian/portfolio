@@ -14,11 +14,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel = "icon" href = 
-"imagens/img-me-sobre.jpeg" 
-        type = "image/x-icon">
-</head>
-
+  <link rel= "icon" href = "imagens/img-me-sobre.jpeg" type = "image/x-icon">
+  <link rel="stylesheet"  href="css/lightslider.min.css"/>
+  <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -37,7 +36,7 @@
             <li><a class="nav-formacao" href="#formacao">Formação</a></li>
             <li><a class="nav-formacao" href="#experiencia">Experiência</a></li>
             <li><a class="nav-formacao" href="#premiacao">Premiações</a></li>
-            <!--<li><a class="nav-port" href="#port">Portfólio</a></li>-->
+            <li><a class="nav-portfolio" href="#portfolio">Portfólio</a></li>
             <li><a class="nav-contato" href="#contato">Contato</a></li>
           </ul>
         </nav>
@@ -47,10 +46,9 @@
             <li><a class="ul-mobile-a" href="#sobre">Apresentação</a></li>
             <li><a class="ul-mobile-a" href="#habilidades">Habilidades</a></li>
             <li><a class="ul-formacao-a" href="#formacao">Formação</a></li>
-            <li><a class="ul-mobile-a" href="#experiencia">Experiência Profissional</a></li>
-            <li><a class="ul-mobile-a" href="#voluntariado">Experiência Voluntariado</a></li>
+            <li><a class="ul-mobile-a" href="#experiencia">Experiência</a></li>
             <li><a class="ul-mobile-a" href="#premiacao">Premiações</a></li>
-            <!--<li><a class="ul-mobile-a" href="#port">Portfólio</a></li>-->
+            <li><a class="ul-mobile-a" href="#portfolio">Portfólio</a></li>
             <li><a class="ul-mobile-a" href="#contato">Contato</a></li>
           </ul>
         </nav>
@@ -521,7 +519,7 @@
           <div class="info-box" style=" margin-bottom: 50px;">
             <div class="box">
               <div class="icone"><i class="fas fa-envelope"></i></div>
-              <div class="icone-msn" style="color: #231B1B;">
+              <div class="icone-msn" style="color: #231f1b;">
                 <h6 style="font-weight: bold;">Email:</h6>
                 <h6 id="h6">snakepablo@hotmail.com</h6>
               </div>
@@ -541,10 +539,101 @@
       </div>
   </section>
 
+  <section target="portfolio" id="portfolio" class="sessao portfolio">
+    <div class="container-portfolio">
+      <div class="divisoria"></div>
+      <div class="row ">
+        <div class="col-sm-12">
+          <h2 class="titulo-portfolio">Portfolio</h2>
+          <div class="barra-titulo"></div>
+        </div>
+      <div class="carrosel-portfolio">
+        <div class="carrosel-portfolio-titulo">
+          <p>A seguir irei demonstrar apenas alguns projetos com layout selecionados, caso queira visualizar todos os meus projetos no GitHub, <a href="https://github.com/PabloChristian" target="_blank">clique aqui</a></p>
+          <br>
+        </div>
+        
+        <div class="carrosel-portfolio-subtitulo">
+          <p class="carrosel-portfolio-item-titulo">UaiFood - Delivery de Comida</p>
+          GitHub do Projeto: <a href="https://github.com/PabloChristian/angular-uaifood" target="_blank">clique aqui</a>
+          <!--<div class="owl-carousel owl-theme"> -->
+          <div class="carrosel-portfolio-imagens">
+            <img class="box-portfolio" src="imagens/portfolio/uaifood/tela-principal-comidas.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/uaifood/tela-principal-bebidas.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/uaifood/tela-pedido.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/uaifood/formulario-pedido.png" alt="">
+          </div>
+        </div>
+
+        <div class="carrosel-portfolio-subtitulo">
+          <br>
+          <p class="carrosel-portfolio-item-titulo"> Gerenciador de Filmes - listagem, cadastro, visualização e aplicação de filtros.</p>
+          GitHub do Projeto: <a href="https://github.com/PabloChristian/angular-gerenciador-filmes" target="_blank">clique aqui</a>
+          <!--<div class="owl-carousel owl-theme"> -->
+            <div class="carrosel-portfolio-imagens">
+            <img class="box-portfolio" src="imagens/portfolio/gerenciadorfilmes/print1.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/gerenciadorfilmes/print2.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/gerenciadorfilmes/print3.png" alt="">
+          </div>
+        </div>
+
+        <div class="carrosel-portfolio-subtitulo">
+          <br>
+          <p class="carrosel-portfolio-item-titulo"> AngularMart - Plataforma similar à Hotmart de venda e afiliação</p>
+          GitHub do Projeto: <a href="https://github.com/PabloChristian/angular-hotmart" target="_blank">clique aqui</a>
+          <!--<div class="owl-carousel owl-theme"> -->
+          <div class=carrosel-portfolio-imagens">
+            <img class="box-portfolio" src="imagens/portfolio/angularmart/login.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/angularmart/home-page.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/angularmart/store-page.png" alt="">
+          </div>
+        </div>
+
+        <div class="carrosel-portfolio-subtitulo">
+          <br>
+          <p class="carrosel-portfolio-item-titulo"> Lista de Compras Online</p>
+          GitHub do Projeto: <a href="https://github.com/PabloChristian/angular-lista-compras" target="_blank">clique aqui</a>
+          <!--<div class="owl-carousel owl-theme"> -->
+            <div class=carrosel-portfolio-imagens">
+            <img class="box-portfolio" src="imagens/portfolio/listacompras/print2.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/listacompras/print3.png" alt="">
+          </div>
+        </div>
+
+        <div class="carrosel-portfolio-subtitulo">
+          <br>
+          <p class="carrosel-portfolio-item-titulo"> Dogflix - NetFlix de doguinhos!</p>
+          Acesse Online: <a href="https://pablochristian.github.io/html-css-dogflix/" target="_blank">clique aqui</a>
+          <br>
+          GitHub do Projeto: <a href="https://github.com/PabloChristian/html-css-dogflix" target="_blank">clique aqui</a>
+          <!--<div class="owl-carousel owl-theme"> -->
+          <div class=carrosel-portfolio-imagens">
+            <img class="box-portfolio" src="imagens/portfolio/dogflix/print1.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/dogflix/print2.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/dogflix/print3.png" alt="">
+          </div>
+        </div>
+
+        <div class="carrosel-portfolio-subtitulo">
+          <br>
+          <p class="carrosel-portfolio-item-titulo"> Cadastro e Visualização de Cursos</p>
+          GitHub do Projeto: <a href="https://github.com/PabloChristian/angular-gerenciador-cursos" target="_blank">clique aqui</a>
+          <!--<div class="owl-carousel owl-theme"> -->
+          <div class=carrosel-portfolio-imagens">
+            <img class="box-portfolio" src="imagens/portfolio/gerenciadorcursos/print2.png" alt="">
+            <img class="box-portfolio" src="imagens/portfolio/gerenciadorcursos/print3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </section>
+
   <footer>
     <div class="container">
       <br>
-      <h5 style="color: white; text-align: center;">Desenvolvido por Pablo Christian</h5>
+      <h5 style="color: rgb(5, 5, 5); text-align: center;">Desenvolvido por Pablo Christian</h5>
       <div class="social-box">
         <a href="mailto:snakepablo@hotmail.com?subject=OlaPablo" target="_blank">
           <div class="social-icon">
@@ -582,12 +671,11 @@
           </div>
         </a>
       </div>
-      <h6 style="color: white; text-align: center;">Todos os diretos reservados</h6>
+      <h6 style="color: rgb(8, 8, 8); text-align: center;">Todos os diretos reservados</h6>
       <br>
       <div class="clear"></div>
     </div>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -600,6 +688,9 @@
   <script type="text/javascript" src="js/modal.js"></script>
   <script type="text/javascript" src="js/MenuScroll.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
   <script>
     AOS.init();
   </script>

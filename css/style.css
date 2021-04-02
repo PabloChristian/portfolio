@@ -8,6 +8,7 @@ Avanade: #e46a06
 :root{
   --cor_principal: white;
   --cor_secundaria: #e46a06;
+  --cor_imagem_rodape: black;
 }
 
 /*elementos base*/
@@ -135,7 +136,9 @@ nav.desktop a:hover{
 }
 
 #type{
-    color: var(--cor_secundaria);
+    color: black;
+    font-size:20px;
+    
 }
 #type::after{
     content: '|';
@@ -914,10 +917,110 @@ section.contato .box{
 
 /* =================================================================================================
 ====================================================================================================*/
+
+/* PORTFOLIO */
+/* ==================================================================================================
+===================================================================================================== */
+
+section.portfolio .container-portfolio{
+  margin: 100px;
+}
+section.portfolio .divisoria{
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: -40px;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 4;
+}
+  
+section.portfolio  .titulo-portfolio {
+  text-align: center;
+  color:  var(--cor_principal);
+  font-weight: bold;
+}
+  
+section.portfolio  .barra-titulo{
+  width: 80px;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #231B1B;
+  margin-bottom: 30px;
+  position: relative;
+  left: 50%;
+}
+  
+section.portfolio .mensagem {
+  color: var(--cor_principal);
+  text-align: center;
+  width: 60%;
+}
+
+
+.icone{
+  background-color: rgba(35, 27, 27, 0.3);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 100%;
+}
+
+.icone > i{
+  font-size: 35px;
+  position: relative;
+  left: 12px;
+  color: #f34c0a;
+}
+
+section.portfolio .box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-portfolio{
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 4px;
+  padding: 5px;
+  width: 600px;
+  height:280px;
+}
+
+.carrosel-portfolio{
+  margin-top:5px;
+  margin-bottom: 30px;
+}
+
+.carrosel-portfolio-titulo{
+  color: black;
+  font-size: 20px;
+}
+
+.carrosel-portfolio-subtitulo{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.carrosel-portfolio .item{
+  width:150%;
+}
+
+.carrosel-portfolio:hover{
+  cursor:pointer;
+}
+
+
+/* =================================================================================================
+====================================================================================================*/
+
 /* FOOTER */
 
 footer{
-    background-color: var(--cor_secundaria);
+    background-color: var(--cor_principal);
 }
 
 footer  .social-box{
@@ -959,36 +1062,44 @@ footer  .i-wraper{
 }
 
 footer  i.fa-instagram{
-    color: #fff;
+    color: var(--cor_imagem_rodape);
     top: 2px;
 }
 
 
 footer  i.fa-envelope{
-    color: #fff;
+    color: var(--cor_imagem_rodape);
     position: relative;
     left: 8px;
     top: 22px;
 }
 
 footer  i.fa-whatsapp{
-    color: #fff;
+    color: var(--cor_imagem_rodape);
     top: 2px;
 }
 
 footer i.fa-linkedin-in{
-    color: #fff;
+    color: var(--cor_imagem_rodape);
     top: 3px;
     left: 10px;
 }
 
 
 footer  i.fa-github{
-    color: #fff;
+    color: var(--cor_imagem_rodape);
     font-size: 40px;
     position: relative;
     left: 6px;
     top: 21px;
+}
+
+footer  i.fa-medium{
+  color: var(--cor_imagem_rodape);
+  font-size: 40px;
+  position: relative;
+  left: 6px;
+  top: 21px;
 }
 
 footer i.fa-github:hover{
@@ -1456,32 +1567,32 @@ footer i.fa-github:hover{
     }
     
     footer  i.fa-instagram{
-        color: #fff;
+        color: var(--cor_imagem_rodape);
         top: 5px;
     }
     
     
     footer  i.fa-envelope{
-        color: #fff;
+        color:var(--cor_imagem_rodape);
         position: relative;
         left: 8px;
         top: 22px;
     }
     
     footer  i.fa-whatsapp{
-        color: #fff;
+        color: var(--cor_imagem_rodape);
         top: 4px;
     }
     
     footer i.fa-linkedin-in{
-        color: #fff;
+        color: var(--cor_imagem_rodape);
         top: 5px;
         left: 10px;
     }
     
     
     footer  i.fa-github{
-        color: rgb(250, 52, 2);
+        color: var(--cor_imagem_rodape);
         font-size: 35px;
         position: relative;
         left: 6px;

@@ -2,6 +2,12 @@
  * Font Awesome Free 5.15.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+
+:root{
+  --cor_imagem: #e46a06;;
+  --cor_imagem_rodape_depois: black;
+}
+
 .fa,
 .fas,
 .far,
@@ -1441,7 +1447,9 @@ readers do not read off random characters that represent icons */
   content: "\f1d1"; }
 
 .fa-envelope:before {
-  content: "\f0e0"; }
+  content: "\f0e0";
+  color: var(--cor_imagem);
+}
 
 .fa-envelope-open:before {
   content: "\f2b6"; }
@@ -1519,13 +1527,19 @@ readers do not read off random characters that represent icons */
   content: "\f070"; }
 
 .fa-facebook:before {
-  content: "\f09a"; }
+  content: "\f09a"; 
+  color: var(--cor_imagem);
+}
 
 .fa-facebook-f:before {
-  content: "\f39e"; }
+  content: "\f39e";
+  color: var(--cor_imagem);
+}
 
 .fa-facebook-messenger:before {
-  content: "\f39f"; }
+  content: "\f39f";
+  color: var(--cor_imagem);
+}
 
 .fa-facebook-square:before {
   content: "\f082"; }
@@ -1834,7 +1848,8 @@ readers do not read off random characters that represent icons */
   content: "\f1d2"; }
 
 .fa-github:before {
-  content: "\f09b"; }
+  content: "\f09b";
+  color: var(--cor_imagem);}
 
 .fa-github-alt:before {
   content: "\f113"; }
@@ -2503,10 +2518,12 @@ readers do not read off random characters that represent icons */
   content: "\f0c1"; }
 
 .fa-linkedin:before {
-  content: "\f08c"; }
+  content: "\f08c";
+  color: var(--cor_imagem);}
 
 .fa-linkedin-in:before {
-  content: "\f0e1"; }
+  content: "\f0e1";
+  color: var(--cor_imagem);}
 
 .fa-linode:before {
   content: "\f2b8"; }
@@ -2575,7 +2592,9 @@ readers do not read off random characters that represent icons */
   content: "\f076"; }
 
 .fa-mail-bulk:before {
-  content: "\f674"; }
+  content: "\f674";
+  color: var(--cor_imagem);
+}
 
 .fa-mailchimp:before {
   content: "\f59e"; }
@@ -2648,7 +2667,7 @@ readers do not read off random characters that represent icons */
 
 .fa-medium:before {
   content: "\f3c7"; 
-  color: rgb(253, 116, 24);}
+  color: var(--cor_imagem);}
 
 .fa-medium-m:before {
   content: "\f3c7"; }
@@ -3008,7 +3027,8 @@ readers do not read off random characters that represent icons */
   content: "\f511"; }
 
 .fa-phone:before {
-  content: "\f095"; }
+  content: "\f095";
+  color: var(--cor_imagem);}
 
 .fa-phone-alt:before {
   content: "\f879"; }
@@ -4436,7 +4456,9 @@ readers do not read off random characters that represent icons */
   content: "\f1d7"; }
 
 .fa-whatsapp:before {
-  content: "\f232"; }
+  content: "\f232";
+  color: var(--cor_imagem);
+}
 
 .fa-whatsapp-square:before {
   content: "\f40c"; }

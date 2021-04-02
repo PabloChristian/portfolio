@@ -10,6 +10,8 @@ HTML
 CSS
 Bootstrap
 Flexbox
+JavaScript
+JQuery
 
 ## Imagens
 
