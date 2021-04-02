@@ -30,5 +30,8 @@ JQuery
 - Experiência Profissional
 <img src="docs/prints/print5.png">
 
+- Portfolio
+<img src="docs/prints/print7.png">
+
 - Contato
 <img src="docs/prints/print6.png">
