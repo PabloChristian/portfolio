@@ -3,7 +3,7 @@ Portfolio para apresentação de currículo, contendo habilidades e experiência
 
 ## Acessando o Site
 Acesse o link abaixo:
-https://pablochristian.github.io/Portfolio/
+https://pablochristian.github.io/portfolio/
 
 ## Tecnologias
 HTML
