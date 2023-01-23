@@ -1,11 +1,10 @@
 # Portfolio
-Portfolio para apresentação de currículo, contendo habilidades e experiências.
+Portfolio for Resume presentation, containing skills and experience.
 
-## Acessando o Site
-Acesse o link abaixo:
+## Website Link
 https://pablochristian.github.io/portfolio/
 
-## Tecnologias
+## Technologies
 HTML
 CSS
 Bootstrap
@@ -13,25 +12,25 @@ Flexbox
 JavaScript
 JQuery
 
-## Imagens
+## Images
 
-- Tela Principal (Home)
+- Home
 <img src="docs/prints/print1.png">
 
-- Apresentação
+- Presentation
 <img src="docs/prints/print2.png">
 
-- Habilidades
+- Skills
 <img src="docs/prints/print3.png">
 
-- Formação
+- Formation
 <img src="docs/prints/print4.png">
 
-- Experiência Profissional
+- Professional Experience
 <img src="docs/prints/print5.png">
 
 - Portfolio
 <img src="docs/prints/print7.png">
 
-- Contato
+- Contact
 <img src="docs/prints/print6.png">
